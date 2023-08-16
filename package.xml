@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ttc_calculation</name>
+  <version>0.0.0</version>
+  <description>The ttc_calculation package</description>
+
+  <maintainer email="your-email@example.com">Lotfi Z.</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
