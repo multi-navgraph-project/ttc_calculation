@@ -64,7 +64,8 @@ class TTCCalculationNode:
     def calculate_ttc(self, input):
         # Ensure we have received both ego and other robot data before calculating TTC
         if self.ego_robot_data is not None and self.other_robot_data is not None:
-            ttc_calculation.TTC(input)
+            result = ttc_calculation.TTC(input, 'dataframe')
+            print("Great Results...or not...", result)
         else:
             rospy.logdebug("No Data")
     
