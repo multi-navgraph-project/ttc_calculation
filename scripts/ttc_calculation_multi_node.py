@@ -22,7 +22,7 @@ class TTCCalculationNode:
 
         # Dynamically create subscribers and publishers for other robots
         self.ttc_publishers = {}
-        num_other_robots = 0  # Change this according to your requirements
+        num_other_robots = 1  # Change this according to your requirements
         for i in range(2, num_other_robots + 2):  # Starts from 2 as the ego robot is 1
             sub_topic_name = f'/agv_{i}/odom'
             pub_topic_name = f'/agv_{i}/ttc'
