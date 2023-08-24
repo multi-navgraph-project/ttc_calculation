@@ -17,3 +17,8 @@ install(PROGRAMS
   scripts/ttc_calculation_node.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+install(PROGRAMS
+  scripts/ttc_calculation_multi_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
